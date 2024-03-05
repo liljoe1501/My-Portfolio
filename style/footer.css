@@ -1,0 +1,10 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--clr-slate600);
+  font-size: var(--size-xl);
+  text-transform: uppercase;
+  user-select: none;
+  letter-spacing: 0.02em;
+}

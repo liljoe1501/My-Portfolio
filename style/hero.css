@@ -1,0 +1,134 @@
+.hero {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.hero__img {
+  border-radius: 50%;
+  width: 6rem;
+  height: 7rem;
+}
+.hero__subtitle {
+  color: var(--clr-slate600);
+  font-size: var(--size-base);
+  line-height: 0.9;
+}
+
+.hero__title {
+  color: var(--clr-slate400);
+  font-size: var(--size-4xl);
+  letter-spacing: -0.05em;
+  line-height: 0.9;
+}
+
+.hero_description {
+  max-width: 60ch;
+  font-size: var(--size-sm);
+  color: var(--clr-slate600);
+}
+
+.hero__btn {
+  font-size: var(--size-sm);
+}
+
+/* xs */
+@media (min-width: 475px) {
+  .hero {
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+
+  .hero__img {
+    width: 6.5rem;
+    height: 7.5rem;
+  }
+  .hero__subtitle {
+    color: var(--clr-slate600);
+    font-size: var(--size-lg);
+    line-height: 0.9;
+  }
+
+  .hero__title {
+    font-size: var(--size-5xl);
+  }
+
+  .hero_description {
+    font-size: var(--size-base);
+  }
+
+  .hero__btn {
+    font-size: var(--size-base);
+  }
+}
+
+/* small */
+/* @media (min-width: 640px) {} */
+
+/* Medius */
+/* @media (min-width: 768px) {} */
+
+/* large */
+@media (min-width: 1024px) {
+  .hero {
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+
+  .hero__img {
+    width: 8.5rem;
+    height: 9.5rem;
+  }
+  .hero__subtitle {
+    font-size: var(--size-2xl);
+    line-height: 0.9;
+  }
+
+  .hero__title {
+    font-size: var(--size-6xl);
+  }
+
+  .hero_description {
+    font-size: var(--size-lg);
+  }
+
+  .hero__btn {
+    font-size: var(--size-lg);
+  }
+}
+
+/* Xl */
+@media (min-width: 1280px) {
+  .hero {
+    gap: 2em;
+    margin-top: 2rem;
+  }
+
+  .hero__img {
+    width: 10rem;
+    height: 11rem;
+  }
+  .hero__subtitle {
+    font-size: var(--size-4xl);
+    line-height: 0.9;
+  }
+
+  .hero__title {
+    font-size: var(--size-7xl);
+  }
+
+  .hero_description {
+    font-size: var(--size-xl);
+  }
+
+  .hero__btn {
+    font-size: var(--size-xl);
+  }
+}
+
+/* 2xl */
+/* @media (min-width: 1536px) {} */
